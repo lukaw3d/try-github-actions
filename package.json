@@ -2,5 +2,8 @@
   "private": true,
   "name": "@lukaw3d/try-github-actions",
   "version": "1.0.0",
-  "description": ""
+  "description": "",
+  "files": [
+    "a.js"
+  ]
 }
