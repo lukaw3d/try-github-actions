@@ -1,5 +1,8 @@
 {
   "name": "other-app",
   "version": "1.0.0",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@lukaw3d/try-github-actions": "^1.0.0"
+  }
 }
