@@ -1,9 +1,11 @@
 {
-  "private": true,
   "name": "@lukaw3d/try-github-actions",
   "version": "1.0.0",
   "description": "",
   "files": [
     "a.js"
-  ]
+  ],
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  }
 }
