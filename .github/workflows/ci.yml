@@ -4,6 +4,7 @@ on: [push]
 
 jobs:
   publish:
+    name: Publish if new version in package.json
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
@@ -14,6 +15,6 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
           scope: '@lukaw3d'
 
-      - run: npm publish
+      - run: npm publish || true
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
