@@ -1,3 +1,6 @@
 {
-  "name": "@lukaw3d/try-github-actions"
+  "name": "@lukaw3d/try-github-actions",
+  "scripts": {
+    "write": "echo $RANDOM > ./random"
+  }
 }
